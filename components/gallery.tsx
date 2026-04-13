@@ -5,7 +5,7 @@ import Image from "next/image"
 import { X } from "lucide-react"
 
 const galleryItems = [
-    { src: "/images/gallery/top-one2.jpg", title: "Brand Launch" },
+    { src: "/images/gallery/top1.JPG", title: "Brand Launch" },
     { src: "/images/gallery/andy.jpg", title: "Brand Launch" },
     { src: "/images/gallery/Notre.jpg", title: "Client Meeting" },
     { src: "/images/gallery/Marvel.jpg", title: "Social Content" },
@@ -16,7 +16,7 @@ const galleryItems = [
     { src: "/images/gallery/office21.jpg", title: "Creative Session" },
     { src: "/images/gallery/phamarcy.jpg", title: "Creative Session" },
     { src: "/images/gallery/phamarcy2.jpg", title: "Creative Session" },
-    { src: "/images/gallery/top-one2.jpg", title: "Creative Session" },
+    { src: "/images/gallery/top.jpg", title: "Creative Session" },
 ]
 
 export function Gallery() {

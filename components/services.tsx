@@ -54,7 +54,7 @@ const services = [
     icon: Target,
     title: "Advertising Campaigns",
     description: "Targeted advertising campaigns that maximize ROI and reach your ideal customers.",
-    image: "/images/services/top-one2.jpg",
+    image: "/images/services/top.JPG",
   },
   {
     icon: Lightbulb,
