@@ -6,16 +6,16 @@ import { Quote, Star } from "lucide-react"
 const testimonials = [
   {
     quote: "Vuka Digital transformed our online presence completely. Our leads increased by 300% within three months of working with them. Their strategic approach and creative execution exceeded all our expectations.",
-    author: "",
-    role: "",
+    author: "T. Ncube",
+    role: "Director",
     company: "Education",
     image: "/images/testimonials/Brayde.jpg",
     rating: 5,
   },
   {
     quote: "The team's strategic approach to our marketing campaign exceeded all expectations. They truly understand digital growth and delivered results that directly impacted our bottom line.",
-    author: "",
-    role: "",
+    author: "N. Paradza",
+    role: "Founder",
     company: "Cars",
     image: "/images/testimonials/Notre.jpg",
     rating: 5,
