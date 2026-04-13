@@ -1,9 +1,8 @@
 "use client"
 
 import Image from "next/image"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Play, Megaphone, Palette, Globe, Camera } from "lucide-react"
+import { ArrowRight, Megaphone, Palette, Globe, Camera } from "lucide-react"
 
 export function Hero() {
   const whatsappLink =
@@ -12,7 +11,7 @@ export function Hero() {
   return (
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
 
-        {/* Background Image */}
+        {/* Background */}
         <div className="absolute inset-0">
           <Image
               src="/images/hero-bg.jpg"
@@ -28,7 +27,7 @@ export function Hero() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
 
-            {/* LEFT CONTENT */}
+            {/* LEFT */}
             <div className="text-center lg:text-left">
 
               {/* Badge */}
@@ -53,10 +52,9 @@ export function Hero() {
                 <strong className="text-white">web development</strong>,{" "}
                 <strong className="text-white">content creation</strong>, and{" "}
                 <strong className="text-white">professional photography</strong>.
-                We help businesses dominate the digital landscape and achieve measurable results.
               </p>
 
-              {/* Services Pills */}
+              {/* Service Pills */}
               <div className="mt-8 flex flex-wrap gap-3 justify-center lg:justify-start">
                 <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-white/80 text-sm">
                   <Megaphone className="w-4 h-4 text-primary" />
@@ -76,10 +74,9 @@ export function Hero() {
                 </div>
               </div>
 
-              {/* CTA Buttons */}
+              {/* CTA */}
               <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
-                {/* WhatsApp CTA */}
                 <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                   <Button
                       size="lg"
@@ -90,16 +87,6 @@ export function Hero() {
                   </Button>
                 </a>
 
-                {/* Scroll to Services */}
-                <Link href="#services">
-                  <Button
-                      size="lg"
-                      className="bg-[#3a3a3a] text-white hover:bg-[#4a4a4a] gap-2 border-0"
-                  >
-                    <Play className="h-4 w-4" />
-                    View Our Work
-                  </Button>
-                </Link>
               </div>
 
               {/* Stats */}
@@ -119,12 +106,13 @@ export function Hero() {
                   <div className="text-sm text-white/60">Industries Served</div>
                 </div>
               </div>
+
             </div>
 
-            {/* RIGHT SIDE */}
+            {/* RIGHT */}
             <div className="relative hidden lg:block">
 
-              {/* Logo Card */}
+              {/* Logo */}
               <div className="relative aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-[#1a1a1a] to-[#2a2a2a] border border-white/10 shadow-2xl">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(128,0,32,0.15),transparent_60%)]" />
                 <Image
@@ -174,6 +162,7 @@ export function Hero() {
               </div>
 
             </div>
+
           </div>
         </div>
       </section>

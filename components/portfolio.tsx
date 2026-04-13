@@ -130,13 +130,6 @@ export function Portfolio() {
             </div>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <Button variant="outline" size="lg" className="gap-2">
-            View All Projects
-            <ArrowUpRight className="w-4 h-4" />
-          </Button>
-        </div>
       </div>
     </section>
   )
