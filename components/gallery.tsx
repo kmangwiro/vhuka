@@ -16,7 +16,7 @@ const galleryItems = [
     { src: "/images/gallery/office21.jpg", title: "Creative Session" },
     { src: "/images/gallery/phamarcy.jpg", title: "Creative Session" },
     { src: "/images/gallery/phamarcy2.jpg", title: "Creative Session" },
-    { src: "/images/gallery/top.jpg", title: "Creative Session" },
+    { src: "/images/gallery/top.JPG", title: "Creative Session" },
 ]
 
 export function Gallery() {
