@@ -5,7 +5,7 @@ import Image from "next/image"
 import { X } from "lucide-react"
 
 const galleryItems = [
-    { src: "/images/gallery/top-one.jpg", title: "Brand Launch" },
+    { src: "/images/gallery/top-one2.jpg", title: "Brand Launch" },
     { src: "/images/gallery/andy.jpg", title: "Brand Launch" },
     { src: "/images/gallery/Notre.jpg", title: "Client Meeting" },
     { src: "/images/gallery/Marvel.jpg", title: "Social Content" },
